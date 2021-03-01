@@ -39,5 +39,10 @@
         background: white;
         padding: 8px 10px;
         border: 1px solid black;
+        transition-duration: 0.4s;
+    }
+    .fancyButton:hover{
+        background-color: black;
+        color: white;
     }
 }

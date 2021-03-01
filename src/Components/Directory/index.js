@@ -9,12 +9,12 @@ const Directory = props =>{
         <div className='directory'>
             <div className='wrap'>
                 <div className='item' style={{backgroundImage:`url(${bakShop})`}}>
-                    <a>
+                    <a className='fancyButton'>
                         Shop from Bakery
                     </a>
                 </div>
                 <div className='item' style={{backgroundImage:`url(${pizShop})`}}>
-                    <a>
+                    <a className='fancyButton'>
                         Shop from Pizzeria
                     </a>
                 </div>
